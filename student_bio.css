@@ -1,10 +1,43 @@
-p {
-    margin-left: 500px;
+body {
+	background-color: lightblue;
+	margin: 0;
+	padding: 0;
+	font-family:"Georgia", "Times New Roman", Serif;
+	font-size: 18px;
+	line-height: 150%;
 }
 
 h1 {
   font-family: "courier";
   font-size: 30px;
-  color: green;
-  text-align: center
+  color: white;
+  background-color: black;
+  margin: 0;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+a {
+	color: #d21034;
+}
+
+.container {
+	width: 1024px;
+	margin: 0px auto;
+}
+
+#main-bio,
+#contact-info,
+#Ciaran {
+	float: left;
+}
+
+
+#main-bio {
+	width:70%;
+}
+
+#contact-info {
+	width:30%;
 }
